@@ -1,0 +1,28 @@
+
+@import "tailwindcss";
+
+.containers {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #f23064;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  /* text-align: center; */
+}
+
+.inputs, .buttons {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  border: 1px solid #f23064;
+  border-radius: 5px;
+}
+
+.buttons {
+  background-color: #f23064;
+  color: white;
+  cursor: pointer;
+}
